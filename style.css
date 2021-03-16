@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content:center ;
+}
+.padre{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    background-color: white;
+    /* border:solid 2px blue; */
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.puntitos{
+   flex-grow: 1;
+   display: flex;
+   justify-content: flex-end;
+}
+.item{
+    padding: 8px;
+    margin: 3px;
+}
+.foot{
+    
+    background-color: white;
+    /* border:solid 2px blue; */
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+
+}
+.imagen{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* margin: 3px;
+    border-radius: 3px; */
+
+}
+.descripcion{
+    background-color: white;
+    text-overflow: ellipsis;
+    /* border:solid 2px blue; */
+    padding: 8px;
+}
+p{
+    max-width: 400px;
+}
