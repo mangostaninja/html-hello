@@ -1,0 +1,81 @@
+h1, p, button, input{
+    font-family: 'Dancing Script', cursive;
+    background-color: whitesmoke;
+}
+input{
+    float: right;
+    margin: 2%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+
+.inputs{
+    margin-right: 3%;
+    width: 50%;
+    margin-top: 4%;
+   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.post-card{
+    background-color: whitesmoke;
+    margin-top: 20%;
+    height: 22em;
+    width: 30em;
+    
+    border: 2px solid dimgray;
+}
+.logo{
+    margin-top: 2%;
+    margin-right: 2%;
+    float: right;
+}
+.imagen{
+    height:5em;
+    
+    
+}
+header{
+    height:5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.text-post{
+    margin-left: 3%;
+    width: 30%;
+}
+.header-post{
+    margin-left: 3%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    padding: 1px;
+    margin-top: 4%;
+    border: 2px solid grey;
+    background-color: rgb(218, 211, 211);
+    
+}
+button:hover{
+    color: red;
+    background-color: gray;
+}
